@@ -1,0 +1,22 @@
+[
+  {
+    "title": "JAVA",
+    "Center": "Sengkang",
+    "Number_of_Student": 31
+  },
+  {
+    "title": "PYTHON",
+    "Center": "Sengkang",
+    "Number_of_Student": 31
+  },
+  {
+    "title": "DEVOPS",
+    "Center": "Sengkang",
+    "Number_of_Student": 31
+  },
+  {
+    "title": "CLOUD",
+    "Center": "Sengkang",
+    "Number_of_Student": 31
+  }
+]

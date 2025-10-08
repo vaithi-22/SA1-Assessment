@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assessment</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./Style/style.css">
+</head>
+
+<body>
+
+  <h1 style="color:white; font-family: Arial, Helvetica, sans-serif;margin-left: 20px;">
+    Super Learning App!
+  </h1>
+  <p style="
+        color: rgb(230, 235, 102);
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 20px;
+      ">
+    Welcome to my app! Click to view the pages!
+  </p>
+
+  <div class="container-fluid">
+    <div class="row d-flex">
+      <div class="tab flex-column  ">
+        <button class="tablinks active btn btn-secondary m-2" onclick="openTab(event, './Html/tab1.html')"
+          id="defaultOpen">
+          Home
+        </button>
+        <button class="tablinks btn btn-secondary m-2" onclick="openTab(event, './Html/tab2.html')">
+          About Me
+        </button>
+        <button class="tablinks btn btn-secondary m-2" onclick="openTab(event, './Html/tab3.html')">
+          Contact
+        </button>
+        <button class="tablinks btn btn-secondary m-2" onclick="openTab(event, './Html/tab4.html')">
+          Product
+        </button>
+        <button class="tablinks btn btn-secondary m-2" onclick="openTab(event, './Html/tab5.html')">
+          Review
+        </button>
+      </div>
+
+      <div id="tab-content-container" class="tabcontent">
+        <!-- Content will be loaded here  -->
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="text-light text-center">
+      <span> RV © 2025 </span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.12.2/dist/axios.min.js"></script>
+  
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+    integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+
+  <script src="./JS/view.js"></script>
+  <script src="./JS/data.js"></script>
+  <script src="./JS/script.js"></script>
+</body>
+
+</html>
